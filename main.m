@@ -4,6 +4,8 @@ disp('5');pause(1);disp('4');pause(1);disp('3');pause(1);disp('2');pause(1);disp
 clear all;
 
 %% 1. Set path variables
+%add library for functions and gui to search path
+addpath('lib','gui');
 %path- and filename to landsat image -> must be an .tar.gz file
 filename_landsat='D:\Landsat\L7 ETM_ SLC-off _2003-present_\withPAN\LE71230352013332EDC00.tar.gz';
 
