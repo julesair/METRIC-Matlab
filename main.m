@@ -10,10 +10,10 @@ addpath('lib','gui');
 filename_landsat='D:\Landsat\L7 ETM_ SLC-off _2003-present_\withPAN\LE71230352013332EDC00.tar.gz';
 
 %path- and filename to meteodata in .mat format.
-filename_meteodata='C:\Users\Jules\Dropbox (hydrosolutions)\hydrosolutions_jules\Project Guantao\data\meteostations\guantao\guantao.mat';
+filename_meteodata='guantao.mat';
 
 %path- and filename to prm file in .mat format.
-filename_prm='C:\Users\Jules\Dropbox (hydrosolutions)\hydrosolutions_jules\Project Guantao\METRIC Matlab\prm.mat';
+filename_prm='prm.mat';
 %% 2. Load necessary files and parameters into workspace
 matexist=exist('landsat.mat');
 if matexist>0
